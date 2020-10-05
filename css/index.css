@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+#h1 {
+    text-align: center;
+}
+
+#titulo {
+    font-size: 25px;
+}
+
+#teste {
+    padding: -5px;
+}
+
+.formulario1 {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.formulario2 {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#titulo2 {
+    background-color: orange;
+}
+
+.formulario3 {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+#titulo3 {
+    background-color: lightblue;
+    width: 430px;
+}
+
+#celulacolorida {
+    background-color: darkblue;
+    width: 277px;
+}
+
+#alinhamentoCidade{
+    margin-right: 10px;
+}
+#alinhamentoUF {
+    margin-right: 35px;
+}
+
+#alinhamentoFAX {
+    margin-right: 30px;
+}
+
+#alinhamentoSexo {
+    margin-right: 20px;
+}
+
+#alinhamentoSenha {
+    margin-right: 17px;
+}
+
+.formulario4 {
+    background-color: #f0faf1;
+    
+}
+
+.configuracaofieldset {
+    color:green;
+    border-color: rgb(218, 248, 218);
+    margin: 2px;
+}
+
+/* #contorno {
+    color: ;
+    
+} */
+
+#fundoformulario4 {
+    max-width: 650px;
+    margin: 0 auto;
+    width: 43%; /* largura do box */
+    padding: 0 5%; /* padding a esquerda e a direita */
+    background-color: #f0faf1;
+    border: solid green;
+    border-width: 0 100%; /* borda a esquerda e a direita */
+}

@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 18</title>
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <h1 id="h1">Atividade 18 Formulário CSS</h1>
+        <form class="formulario1">
+            <table>
+                <tr>
+                    <td id="titulo">
+                        <b>Deixe um comentário</b><p></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" size="60" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">E-mail:</label><br>
+                        <input type="text" id="email" name="email" size="60" maxlength="30"/>
+                    </td>
+                </tr>
+
+                
+                <tr>
+                    <td>
+                        <label for="website">Website:</label><br>
+                        <input type="text" id="text" name="text" size="60" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="comentario">Comentário:</label><br>
+                        <textarea name="comentario" id="comentario" cols="62" rows="10"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Observação: Seu Comentário será publicado após passar pelo moderador
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" id="Enviar comentário" name="Enviar comentário" value="Enviar comentário"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+            <hr>
+
+        <form class="formulario2">
+            <table>
+                <tr>
+                    <td id="titulo2">
+                    SISTEMA DE GESTÃO ACADÊMICA<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <b>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</b><p>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td>
+                        <label for="login">Login</label>
+                    </td>
+                    <td>
+                        <input type="text" id="login" name="login" size="30" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="senha">Senha</label>
+                    </td>
+                    <td>
+                        <input type="password" id="senha" name="senha" size="30" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Status">Status</label>
+                    </td>
+                    <td>
+                        <select id="status" name="status">
+                            <option value="" selected="select">Inativo</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Tipo">Tipo</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="tipo" name="tipo" value="Masculino"/>
+                        <label for="tipo">Técnico</label>
+
+                        <input type="radio" id="tipo" name="tipo" value="Feminino"/>
+                        <label for="tipo">Professor</label>
+
+                        <input type="radio" id="tipo" name="tipo" value="Outros"/>
+                        <label for="tipo">Aluno</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="nasc">Data criação</label>
+                    </td>
+                    <td>
+                        <input type="date" id="nasc" name="nasc" size="40"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="perfil">Perfil</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="perfil" name="perfil" value="Masculino"/>
+                        <label for="perfil">Convidado</label>
+
+                        <input type="radio" id="perfil" name="perfil" value="Feminino"/>
+                        <label for="perfil">Administrador</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Observações</label>
+                    </td>
+                    <td>
+                        <textarea name="observações" id="observações" cols="38" rows="5"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Módulos</label>
+                    </td>
+                    <td>
+                        
+                        <input type="checkbox" id="HTML" name="HTML" value="HTML"/>
+                        <label for="HTML">Compras</label>
+                        
+                        
+                        <input type="checkbox" id="CSS" name="CSS" value="CSS"/>
+                        <label for="CSS">Biblioteca</label>
+                        
+                        
+                        <input type="checkbox" id="PHP" name="PHP" value="PHP"/>
+                        <label for="PHP">Acadêmico</label>
+                        <p>
+                        
+                        <input type="checkbox" id="Python" name="Python" value="Python"/>
+                        <label for="Python">Documentação</label>
+                        
+                        
+                        <input type="checkbox" id="Ruby" name="Ruby" value="Ruby"/>
+                        <label for="Ruby">Recursos Humanos</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" id="Cadastrar" name="Cadastrar" value="Cadastrar"/>
+                        <input type="reset" id="Excluir" name="Excluir" value="Excluir"/>
+                    </td>
+                </tr>
+            </table>    
+        </form>
+
+        <hr>
+
+        <div id="fundoformulario4">
+            <img src="fotos/Screenshot_3.png" width="80px">
+            <table class="formulario4">
+                <tr>
+                    <td>
+                        <fieldset class="configuracaofieldset">
+                            <legend id="contorno"><Strong>Cadastro Geral</Strong></legend>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <fieldset class="configuracaofieldset">
+                                            <legend>Dados pessoais</legend>
+                                            <label for="Nome">Nome completo:</label><br>
+                                            <input type="text" id="Nome" name="Nome" size="30" maxlength="30"/>
+                                            <p>
+                                        
+                                            <label for="Profissão">Profissão:</label>
+                                            <br>
+                                            <select id="Profissão" name="Profissão">
+                                                <option value="" selected="select">Sua profissão</option>
+                                            </select>
+                                        </fieldset>
+                                    </td>
+                                        
+                                    <td>
+                                        <fieldset class="configuracaofieldset">
+                                            <legend><Strong>Localização</Strong></legend>
+                                            <label for="email">E-mail:</label><br>
+                                            <input type="text" id="email" name="email" size="30" maxlength="30"/>
+                                            <p>
+                                            <label for="Rua">Rua:</label><br>
+                                            <input type="text" id="Rua" name="Rua" size="30" maxlength="30"/>
+                                        </fieldset>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="3">
+                                        <fieldset class="configuracaofieldset">
+                                            <legend><strong>Faixa etária</strong></legend>
+                                            <p>
+                                            <input type="radio" id="Sexo" name="Sexo" value="Masculino"/>   
+                                            <label for="Sexo">Até 20 anos</label>
+                                            <br>
+                                            <input type="radio" id="Sexo" name="Sexo" value="Feminino"/>
+                                            <label for="Sexo">Mais de 20 até 30 anos</label>
+                                            <br>
+                                            <input type="radio" id="Sexo" name="Sexo" value="Masculino"/>
+                                            <label for="Sexo">Mais de 30 até 40 anos</label>
+                                            <p>
+                                            <input type="radio" id="Sexo" name="Sexo" value="Masculino"/>
+                                            <label for="Sexo">Mais de 40 até 50 anos</label>
+                                            <br>
+                                            <input type="radio" id="Sexo" name="Sexo" value="Feminino"/>
+                                            <label for="Sexo">Mais de 50 até 60 anos</label>
+                                            <br>
+                                            <input type="radio" id="Sexo" name="Sexo" value="Masculino"/>
+                                            <label for="Sexo">Mais de 60</label>
+                                        </fieldset>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="3">
+                                        <fieldset class="configuracaofieldset">
+                                            <legend><strong>Esportes que pratica</strong></legend>
+                                            <p>
+                                            <input type="checkbox" id="Futebol de campo" name="Futebol de campo" value="Futebol de campo"/>
+                                            <label for="Futebol de campo">Futebol de campo</label>
+                                            <br>
+                                            <input type="checkbox" id="Futebol de salão" name="Futebol de salão" value="Futebol de salão"/>
+                                            <label for="Futebol de salão">Futebol de salão</label>
+                                            <br>
+                                            <input type="checkbox" id="Futebol society" name="Futebol society" value="Futebol society"/>
+                                            <label for="Futebol society">Futebol society</label>
+                                            <br>
+                                            <input type="checkbox" id="Volley de quadra" name="Volley de quadra" value="Volley de quadra"/>
+                                            <label for="Volley de quadra">Volley de quadra</label>
+                                            <br>
+                                            <input type="checkbox" id="Volley de praia" name="Volley de praia" value="Volley de praia"/>
+                                            <label for="Volley de praia">Volley de praia</label>
+                                            <br>
+                                            <input type="checkbox" id="Natação em piscina" name="Natação em piscina" value="Natação em piscina"/>
+                                            <label for="Natação em piscina">Natação em piscina</label>
+                                            <br>
+                                            <input type="checkbox" id="Natação em mar aberto" name="Natação em mar aberto" value="Natação em mar aberto"/>
+                                            <label for="Natação em mar aberto">Natação em mar aberto</label>
+                                            <br>
+                                            <img src="fotos/Screenshot_1.png" width="150px">
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                        <table>
+                            <tr>
+                                <td colspan="3">
+                                    <fieldset class="configuracaofieldset">
+                                        <legend><strong>Comentário</strong></legend>
+                                        <p>
+                                        <label for="Mensagem">Mensagem:</label><br>
+                                        <textarea name="Mensagem" id="Mensagem" cols="42" rows="7"></textarea>
+                                        
+                                        <img src="fotos/Screenshot_4.png" width="170" height="110">
+                                    </fieldset>
+                                </td>
+                            </tr>
+                    
+                            <tr>
+                                <td colspan="2">
+                                    <input type="submit" id="Enviar" name="Enviar" value="Enviar"/>
+                                    <input type="reset" id="Limpar" name="Limpar" value="Limpar"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <hr>
+
+        <form class="formulario3">
+            <table>
+                <tr>
+                    <td id="titulo3">
+                    Não é associado? Faça seu cadastro<br>
+                    </td>
+                
+                    <td id="celulacolorida">
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td>
+                        <label for="Nome">Nome</label>
+                    </td>
+                    <td>
+                        <input type="text" id="Nome" name="Nome" size="75" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="NomeCompleto">Nome<br>Completo</label>
+                    </td>
+                    <td>
+                        <input type="text" id="NomeCompleto" name="NomeCompleto" size="75" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="CPF">CPF</label>
+                    </td>
+                    <td>
+                        <input type="text" id="CPF" name="CPF" size="75" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="text" id="email" name="email" size="75" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="WebSite">WebSite</label>
+                    </td>
+                    <td>
+                        <input type="text" id="WebSite" name="WebSite" size="75" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Endereço">Endereço</label>
+                    </td>
+                    <td>
+                        <input type="text" id="Endereço" name="Endereço" size="75" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Bairro">Bairro</label>
+                    </td>
+                    <td>
+                        <input type="text" id="Bairro" name="Bairro" size="34" maxlength="30"/>
+                    
+                        <label for="Cidade" id="alinhamentoCidade">Cidade</label>
+        
+                        <input type="text" id="Cidade" name="Cidade" size="26" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="CEP">CEP</label>
+                    </td>
+                    <td>
+                        <input type="text" id="CEP" name="CEP" size="34" maxlength="30"/>
+                    
+                        <label for="UF" id="alinhamentoUF">UF</label>
+                        
+                        <select id="UF" name="UF">
+                            <option value="" selected="select">UF</option>
+                            <option value="MG">MG</option>
+                            <option value="SP">SP</option>
+                            <option value="RJ">RJ</option>
+                            <option value="ES">ES</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Telefone">Telefone</label>
+                    </td>
+                    <td>
+                        <input type="text" id="Telefone" name="Telefone" size="34" maxlength="30"/>
+                    
+                        <label for="Fax" id="alinhamentoFAX">Fax</label>
+                        
+                        <input type="text" id="Fax" name="Fax" size="26" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="nasc">Data Nascimento</label>
+                    </td>
+                    <td>
+                        <input type="text" id="nasc" name="nasc" size="34"/>
+                    
+                        <label for="Sexo" id="alinhamentoSexo">Sexo</label>
+                    
+                        <input type="radio" id="Sexo" name="Sexo" value="Masculino"/>
+                        <label for="Sexo">M</label>
+
+                        <input type="radio" id="Sexo" name="Sexo" value="Feminino"/>
+                        <label for="Sexo">F</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Celular">Celular</label>
+                    </td>
+                    <td>
+                        <input type="text" id="Celular" name="Celular" size="34"/>
+                    
+                        <label for="Est.Civil">Est.Civil</label>
+                    
+                        <select id="Est.Civil" name="Est.Civil">
+                            <option value="" selected="select">Solteiro</option>
+                            <option value="select">Casado</option>
+                            <option value="select">Viúvo</option>
+                            <option value="select">Divorciado</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Login">Login</label>
+                    </td>
+                    <td>
+                        <input type="text" id="Login" name="Login" size="34" maxlength="30"/>
+                    
+                        <label for="Senha" id="alinhamentoSenha">Senha</label>
+        
+                        <input type="password" id="Senha" name="Senha" size="26" maxlength="30"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <p>Deseja receber informações sobre os seguintes assuntos abaixo:</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+
+                        <input type="checkbox" id="Tecnologia" name="Tecnologia" value="Tecnologia"/>
+                        <label for="Tecnologia">Tecnologia</label>
+                        
+                        <input type="checkbox" id="Esportes" name="Esportes" value="Esportes"/>
+                        <label for="Esportes">Esportes</label>
+                        
+                        <input type="checkbox" id="Automóveis" name="Automóveis" value="Automóveis"/>
+                        <label for="Automóveis">Automóveis</label>
+                        
+                        <input type="checkbox" id="Culinária" name="Culinária" value="Culinária"/>
+                        <label for="Culinária">Culinária</label>
+                        
+                        <input type="checkbox" id="Política" name="Política" value="Política"/>
+                        <label for="Política">Política</label>
+
+                        <input type="checkbox" id="Policial" name="Policial" value="Policial"/>
+                        <label for="Policial">Policial</label>
+                        
+                        <input type="checkbox" id="Tempo" name="Tempo" value="Tempo"/>
+                        <label for="Tempo">Tempo</label>
+                        <p>
+                        <input type="checkbox" id="Cultura" name="Cultura" value="Cultura"/>
+                        <label for="Cultura">Cultura</label>
+                        
+                        <input type="checkbox" id="Economia" name="Economia" value="Economia"/>
+                        <label for="Economia">Economia</label>
+                        
+                        <input type="checkbox" id="Jogos" name="Jogos" value="Jogos"/>
+                        <label for="Jogos">Jogos</label>
+                        
+                        <input type="checkbox" id="Educação" name="Educação" value="Educação"/>
+                        <label for="Educação">Educação</label>
+                        
+                        <input type="checkbox" id="Viagem" name="Viagem" value="Viagem"/>
+                        <label for="Viagem">Viagem</label>
+
+                        <input type="checkbox" id="Empregos" name="Empregos" value="Empregos"/>
+                        <label for="Empregos">Empregos</label>
+                        
+                        <input type="checkbox" id="Moda e Estilo" name="Moda e Estilo" value="Moda e Estilo"/>
+                        <label for="Moda e Estilo">Moda e Estilo</label>
+                        <p>
+                        <input type="checkbox" id="regras" name="regras" value="regras"/>
+                        <label for="regras">Li as regras de cadastro e autorizo a criação dp usuário</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" id="Confirmar" name="Confirmar" value="Confirmar"/>
+                        <input type="reset" id="Retornar" name="Retornar" value="Retornar"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <hr>
+
+        
+</body>
+</html>
